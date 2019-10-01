@@ -24,6 +24,7 @@ au FileType html let b:delimitMate_matchpairs = "(:),[:],{:},<:>"
 set number
 
 map <C-b> :NERDTreeToggle<CR>
+imap jj <Esc>
 set laststatus=2
 set noshowmode
 set clipboard=unnamedplus

@@ -118,9 +118,10 @@ fi
 
 alias F='echo Respek'
 alias f='echo respek'
+alias ItDoBeLikeThatSometimes='echo "It do"'
 
 export ANDROID_HOME=/home/adam/Android/Sdk
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 # export PATH=${PATH}:/home/adam/android-studio/bin
-
+setxkbmap -layout us -option ctrl:nocaps
